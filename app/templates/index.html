@@ -81,7 +81,7 @@
     </form>
     {% if not config_disabled %}
         <br/>
-        <button id="config-collapsible" class="collapsible">{{ translation['config'] }}</button>
+        <button id="config-collapsible" class="collapsible" style="display:none">{{ translation['config'] }}</button>
         <div class="content">
             <div class="config-fields">
                 <form id="config-form" action="config" method="post">
